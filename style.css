@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Style Script', cursive; 
+}
+
+p{
+    font-family: 'Bebas Neue', cursive;
+}
+.navbar{
+    background:linear-gradient(to right,rgb(122, 198, 233),rgb(6, 100, 143) );
+    
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Style Script', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 1px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.nav-link:hover{
+    color: rgb(0, 0, 0);
+    text-decoration:overline;
+    
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius:60px;
+    outline:none;
+    margin-right: -35px;
+    border:2px solid rgb(248, 26 ,92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26 ,92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+
+}
+.btn0:hover{
+    background-color: darkred;
+    transition: 0.5s;
+}
+.main{
+    background: url(./img/lunchcopy.jpg) no-repeat ;
+    background-size:cover;
+    background-attachment: fixed;
+    height:80vh;
+    background-position: 50% 50%;
+    width:100%;
+    
+}
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    
+    
+
+}
+.main .btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26 ,92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+   
+}
+
+.product{
+    
+    background:linear-gradient(to right,rgb(122, 198, 233),rgb(6, 100, 143) );
+}
+.product h1{
+    font-weight: 700;
+}
+.card{
+    
+    transition: transform .2s;
+}
+.card:hover{
+    transform: scale(1.5);
+}
+.about{
+    
+    background: linen;
+}
+.about img:hover{
+    box-shadow: -25px -2px 42px -8px rgba(0,0,0,0.46);
+    -webkit-box-shadow: -25px -2px 42px -8px rgba(0,0,0,0.46);
+    -moz-box-shadow: -25px -2px 42px -8px rgba(0,0,0,0.46);
+    transition: 0.5s;
+}
+
+.apple{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(img/red.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:70vh;
+    width: 100%;
+    
+
+}
+.apple h1{
+    font-family: 'Style Script', cursive;
+}
+.footer{
+    background-color: black;
+    color: white;
+
+}
+.btn1{
+    height: 45px;
+    width: 100px;
+    background-color:white;
+    margin-left:-10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.contact{
+
+     background:url(img/new.jpg)no-repeat;
+     background-size:cover;
+     opacity:2;
+     background-attachment: fixed;
+     height:80vh;
+     background-position: 50% 50%;
+     width:100%;
+     
+}
+.footer input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.footer::placeholder{
+    color: white;
+}
+.footer p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.fas{
+    font-size: 2.5rem;
+}
